@@ -4,7 +4,7 @@ var pwd = $("#password")
 
 btn_login.addEventListener('click', function() {
     ajax({
-        url: '127.0.0.1', //接口地址
+        url: '/login_in', //接口地址
         type: 'post', // 类型， post 或者 get,
         data: {
             admin_id: user.value,
