@@ -1,6 +1,7 @@
 body {
     height: 100%;
     font-family: Microsoft YaHei;
+    background-color: #9c9c9c;
 }
 .content-1
 {
@@ -100,4 +101,5 @@ body {
 
 .col-md-4 img{
     height: 200px;
+    position: center;
 }
