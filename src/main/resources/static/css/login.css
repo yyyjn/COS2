@@ -1,0 +1,95 @@
+body {
+    height: 100%;
+    font-family: Microsoft YaHei;
+}
+.content-1
+{
+    text-align: center;
+    margin-top:2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    margin-bottom: 5%;
+    width: 90%;
+    border-radius:8px;
+}
+
+#box1{
+    width:800px;
+    height:600px;
+    margin-top: 10px;
+    margin-left: 250px;
+    position:relative;
+    border-radius:10px;
+}
+#imgs{
+    width:800px;
+    height:600px;
+    border-radius:10px;
+}
+.page{
+    width:50px;
+    height:80px;
+    background-color:rgba(0,0,0,0.2);
+    position:absolute;
+    top:260px;
+    font:20px/80px 'Microsoft YaHei';
+    text-align:center;
+    display:none;
+    color:white;}
+
+#left{
+    left:0;
+}
+
+#right{
+    right:0;
+}
+
+#aff{
+    list-style:none;
+    position:absolute;
+    left:210px;
+    bottom:20px;
+}
+#aff li{
+    width:20px;
+    height:20px;
+    float:left;
+    border-radius:50%;
+    margin-left:20px;
+    background-color:gray;
+    text-align:center;
+    font:16px/20px "微软雅黑";
+}
+
+#container1{
+    position:relative;
+    width:100%;
+    min-height:900px;
+    /*设置padding-bottom值大于等于footer的height值，以保证main的内容能够全部显示出来而不被footer遮盖；*/
+    padding-bottom: 220px;
+    box-sizing: border-box;
+}
+
+.footer
+{
+    background-color: #9c9c9c;
+    text-align: center;
+    padding-top: 2%;
+    width:100%;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    height: 200px;
+}
+
+.footer-li .li
+{
+    float:left;
+}
+
+#imag2{
+    width: 100px;
+    height: 200px;
+}
