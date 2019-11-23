@@ -1,12 +1,13 @@
 /target/
 /classes/
 /log/  
-/logs/ 
+/logs/
+/.idea/
 .classpath
 .project
 .settings  
 .myeclipse    
- ##filter databfile¡¢sln file##
+ ##filter databfileï¿½ï¿½sln file##
 *.mdb  
 *.ldb  
 *.sln    
