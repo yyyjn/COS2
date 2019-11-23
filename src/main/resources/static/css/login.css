@@ -93,3 +93,11 @@ body {
     width: 100px;
     height: 200px;
 }
+.col-md-4{
+    background-color:lavender;
+    height: 200px
+}
+
+.col-md-4 img{
+    height: 200px;
+}

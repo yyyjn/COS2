@@ -4,14 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>index</title>
-    <link rel="stylesheet" href="../css/login.css">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../static/css/login.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <script type="text/javascript">
@@ -40,7 +37,7 @@
                 num = 8;
             }
             //切换图片
-            oImgs.src = "image/" + num + ".jpg";
+            oImgs.src = "../../static/image/" + num + ".jpg";
             //重置所有圆点的颜色为灰色
             for(var i = 0 ;i < oLiArr.length; i++){
                 oLiArr[i].style.backgroundColor = "gray";
@@ -101,7 +98,7 @@
 <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#"><h1>订餐系统</h1></a>
+            <a class="navbar-brand" href="#">订餐系统</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
@@ -112,7 +109,7 @@
 <div class="content-1">
     <!--整个盒子-->
     <div id="box1">
-        <img src="image/1.jpg" id="imgs"/>
+        <img src="../../static/image/1.jpg" id="imgs"/>
         <!--手动切换上一页-->
         <div id="left" class="page"><</div>
         <!--手动切换下一页-->
@@ -131,21 +128,23 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
-        <div class="col" style="background-color:lavender; height: 200px">img1</div>
-        <div class="col" style="background-color:orange; height: 200px">img2</div>
-        <div class="col" style="background-color:lavender; height: 200px">img3</div>
+        <div class="col-md-4">
+            <img src="image/1.jpg" class="imge"/>
+            </div>
+        <div class="col-md-4" style="background-color:orange; height: 200px">img2</div>
+        <div class="col-md-4" style="background-color:lavender; height: 200px">img3</div>
     </div>
     <div class="row">
-        <div class="col" style="background-color:blue; height: 200px">img4</div>
-        <div class="col" style="background-color:yellow; height: 200px">img5</div>
-        <div class="col" style="background-color:aqua; height: 200px">img6</div>
+        <div class="col-md-4" style="background-color:blue; height: 200px">img4</div>
+        <div class="col-md-4" style="background-color:yellow; height: 200px">img5</div>
+        <div class="col-md-4" style="background-color:aqua; height: 200px">img6</div>
     </div>
     <div class="row">
-        <div class="col" style="background-color:olive; height: 200px">img7</div>
-        <div class="col" style="background-color:navy; height: 200px">img8</div>
-        <div class="col" style="background-color:firebrick; height: 200px">img9</div>
+        <div class="col-md-4" style="background-color:olive; height: 200px">img7</div>
+        <div class="col-md-4" style="background-color:navy; height: 200px">img8</div>
+        <div class="col-md-4" style="background-color:firebrick; height: 200px">img9</div>
     </div>
 </div>
 
